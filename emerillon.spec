@@ -1,24 +1,27 @@
+# TODO:
+# - packages files for internal help system and gtk-doc
+#
 Summary:	Emerillon is a map viewer featuring Open Street Maps
 Name:		emerillon
-Version:	0.1.1
+Version:	0.1.2
 Release:	0.1
 License:	GPL
 Group:		Applications
 Source0:	http://download.gnome.org/sources/emerillon/0.1/%{name}-%{version}.tar.bz2
-# Source0-md5:	39c344961105019b45dc8b49e8d70cbe
+# Source0-md5:	78a328edd19f9d022e163e9652fa2e5b
 URL:		http://projects.gnome.org/emerillon/
 BuildRequires:	clutter-devel
 BuildRequires:	geoclue-devel >= 0.11.1
 BuildRequires:	glib-devel >= 2.12.0
 BuildRequires:	gtk+2-devel >= 2.12.0
-BuildRequires:	libchamplain-devel >= 0.4
+BuildRequires:	libchamplain-devel >= 0.6
 BuildRequires:	libethos-devel >= 0.2
 BuildRequires:	librest-devel >= 0.6.1
 Requires:	clutter
 Requires:	geoclue >= 0.11.1
 Requires:	glib >= 2.12.0
 Requires:	gtk+2 >= 2.12.0
-Requires:	libchamplain >= 0.4
+Requires:	libchamplain >= 0.6
 Requires:	libethos >= 0.2
 Requires:	librest >= 0.6.1
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
